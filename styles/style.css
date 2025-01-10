@@ -63,6 +63,22 @@ body{
     background: rgb(84, 144, 245);
     cursor: pointer;
 }
+
+.pillars-card-title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 15px 0 ;    
+}
+
+.pillars-card-peragraph{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
 /* nevication menu start  */
 
 #nev-container{
@@ -134,6 +150,56 @@ body{
 }
 /* banner style end  */
 
+/* pillars sesction style start  */
+
+#pillars{
+    margin-top: 65px;
+}
+#pillars .pillars-container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#pillars .pillars-container h1{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 19px;
+    font-family: "Fira Sans", serif;
+}
+
+#pollars .pillars-container p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 25px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    
+}
+
+#pillars .pillars-card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+
+#pillars .pillars-card-content .pil-card1, .pil-card2, .pil-card3, .pil-card4{
+    width: 300px;
+    height: 240px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    font-family: "Fira Sans", serif;
+}
+
+/* pillars section style end  */
+
 /* vision card style start  */
 
 #vision{
@@ -194,3 +260,6 @@ body{
 #vision .vision-card-content .vis-card3{
     background: rgb(247, 235, 207);
 }
+
+/* vission card style end  */
+
