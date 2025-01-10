@@ -16,9 +16,10 @@
     font-size: 16px;
     font-weight: 600;
     border-radius: 8px;
-    background: rgb(82, 195, 3);
+    background: rgb(0, 106, 80);
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .btn-2{
@@ -64,3 +65,42 @@
 /* nevication menu end  */
 
 /* banner style start  */
+
+#banner-container .banner-contant{
+    width: 1280px;
+    height: 560px;
+    border: none;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner-container .banner-contant .left{
+    padding-left: 60px;
+}
+
+#banner-container .banner-contant .right{
+    padding-right: 60px;
+}
+
+#banner-container .banner-contant p{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+}
+
+#banner-container .banner-contant .bennar-title{
+    font-family: "Fira Sans", serif;
+    color: rgb(14, 14, 14);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: left;
+    padding: 16px 0 24px;
+}
+/* banner style end  */
