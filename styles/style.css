@@ -46,39 +46,6 @@ body{
 }
 .btn-2:hover{background-color: #dedede} 
 
-.card-title{
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    color: rgba(14, 14, 14, 0.8);
-    padding: 15px 0 ;    
-}
-
-.card-peragraph{
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 24px;
-    color: rgba(14, 14, 14, 0.7);
-}
-
-.card-btn{
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 19px;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 8px;
-    color: rgb(255, 255, 255);
-    background: rgb(84, 144, 245);
-    cursor: pointer;
-}
-.card-btn:hover {background-color:tomato}
-.card-btn:active {
-  background-color: green;
-  box-shadow: 0 6px #525151;
-  transform: translateY(5px);
-}
-
 .pillars-card-title{
     font-size: 20px;
     font-weight: 700;
@@ -228,6 +195,60 @@ font-family: "Fira Sans", serif;
 #vision{
     margin: 65px 0;
 }
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 15px 0 ;    
+}
+
+.card-peragraph{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.card-btn1{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(84, 144, 245);
+    cursor: pointer;
+}
+.card-btn1:hover {background-color:rgb(54, 105, 194)}
+
+.card-btn2{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 161, 92);
+    cursor: pointer;
+}
+.card-btn2:hover {background-color:rgb(43, 128, 74)}
+
+.card-btn3{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 194, 57);
+    cursor: pointer;
+}
+.card-btn3:hover {background-color:rgb(213, 163, 48)}
+
 #vision .vision-container{
     width: 1280px;
     margin: 0 auto;
@@ -295,3 +316,137 @@ font-family: "Fira Sans", serif;
 }
 
 /* recent news style end  */
+
+/* donet senction style start  */
+#donet .donet-container{
+    width: 1280px;
+    margin: 80px auto;
+    
+}
+
+#donet .donet-container .donet-contant{
+    padding: 0 100px;
+    
+}
+
+#donet .donet-contant{
+    text-align: center;
+}
+
+#donet .donet-in-container{
+    width:825px ;
+    height: 60px;
+    margin: 32px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+
+}
+#donet .donet-container .donet-contant input{
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+       
+}
+#donet input::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Fira Sans", serif;
+    text-align: center;
+
+}
+
+#donet .donet-container .donet-contant .btn-tk {
+    width: 190px;
+    height: 102px;
+    margin: 0 19px;
+    font-size:32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+/* donet style end  */
+
+/* newsletter style start  */
+
+#newsletter .newsletter-container{
+    width: 1280px;
+    height: 395px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    border: none;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter .newslatter-contant{
+    width: 750px;
+    height: 235px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#newsletter .newslatter-contant> form{
+    display: flex;
+    padding: 0px 0px 24px 0px;
+     }
+
+#newsletter form>input{
+    width: 600px;
+    padding: 10px 10px 10px 0px;
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: 0;
+    text-align: center;
+}
+
+#newsletter form>button {
+    background-color:rgb(0, 106, 80);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+#newsletter button:hover {
+    background-color: #0e5738;
+}
+
+#newsletter input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    padding-left: 30px ;
+    font-family: "Fira Sans", serif;
+    color: rgba(14, 14, 14, 0.3);
+}
+
+/* newsletter style end  */
