@@ -362,7 +362,7 @@ font-family: "Fira Sans", serif;
 
 }
 
-#donet .donet-container .donet-contant .btn-tk {
+#donet .btn-tk {
     width: 190px;
     height: 102px;
     margin: 0 19px;
@@ -375,8 +375,12 @@ font-family: "Fira Sans", serif;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+    cursor: pointer;
 }
-
+#donet .btn-tk:hover{
+    background-color: #9cfa9f;
+    
+}
 /* donet style end  */
 
 /* newsletter style start  */
